@@ -1,6 +1,7 @@
 'use client';
 
 import { register, signin } from '@/lib/api';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useCallback, useState } from 'react';
 import Button from './Button';
